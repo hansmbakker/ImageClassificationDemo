@@ -1,0 +1,5 @@
+<AppBarButton
+                Icon="Camera" Label="Check current window"
+                Command="{x:Bind ViewModel.CheckCurrentWindowCommand}"
+                CommandParameter="{Binding ElementName=mapControl}" />
+            

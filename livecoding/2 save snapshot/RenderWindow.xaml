@@ -1,0 +1,8 @@
+<Rectangle
+            Name="RenderWindow"
+            Height="256"
+            Width="256"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Stroke="Red"
+            />

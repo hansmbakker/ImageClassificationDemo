@@ -1,0 +1,7 @@
+<AppBarButton
+                Icon="Play" Label="Start automatic checking"
+                Command="{x:Bind ViewModel.StartAutomaticCheckingCommand}"
+                CommandParameter="{Binding ElementName=mapControl}" />
+            <AppBarButton
+                Icon="Stop" Label="Stop automatic checking"
+                Command="{x:Bind ViewModel.StopAutomaticCheckingCommand}" />

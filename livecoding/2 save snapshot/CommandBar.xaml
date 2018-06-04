@@ -1,0 +1,12 @@
+<Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="48" />
+        </Grid.RowDefinitions>
+<CommandBar
+            Grid.Row="1">
+            <AppBarButton
+                Icon="Save" Label="Save current window"
+                Command="{x:Bind ViewModel.SnapCurrentWindowCommand}"
+                CommandParameter="{Binding ElementName=mapControl}" />
+            
+        </CommandBar>
